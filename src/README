@@ -1,0 +1,20 @@
+
+*****前端只需要对Request负责
+*****类的所有属性信息使用private，设置set函数和get函数进行修改和获取
+*****类的函数根据情况设置权限
+*****新建类在类的那一页写属性注释，函数体上写函数参数注释
+
+每个用户在userinfo目录下拥有不同的子目录
+userinfo下存在一个隐藏文件user那么password.txt文件存放用户名和密码
+userinfo目录级别
+根目录 userinfo 与src同级
+userinfo存在多个平级目录每个目录是不同用户的个人空间，以用户名（username）做目录名
+username目录下存在三个目录{ courseactivity（课程信息和课外活动），homework（上传的作业），coursematerial（上传的课程资料）}
+以上三个目录下存在多个并行目录，分别代表不同科目
+科目下存放用户上传文件和一个记录文件，用来记录每次上传文件的名称和时间
+userinfo\\username\\courseactivity\\courseinfo\\curriculum.txt
+                                  \\examinationinfo\\examination.txt
+                  \\homework\\coursename\\allhomework.txt(上传文件名+时间）
+                                        \\其他上传文件
+                  \\coursematerial\coursename\\allmaterial.txt（上传文件名+时间）
+                                             \\其他上传文件

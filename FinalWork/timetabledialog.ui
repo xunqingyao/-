@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TimeTableDialog</class>
+ <widget class="QDialog" name="TimeTableDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1065</width>
+    <height>742</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>840</x>
+     <y>20</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>exit</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="courseInfoLabel">
+   <property name="geometry">
+    <rect>
+     <x>-100</x>
+     <y>80</y>
+     <width>912</width>
+     <height>33</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>19</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>课程信息</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="courseInfo">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>130</y>
+     <width>781</width>
+     <height>611</height>
+    </rect>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>20</width>
+     <height>50</height>
+    </size>
+   </property>
+   <property name="textElideMode">
+    <enum>Qt::ElideRight</enum>
+   </property>
+   <property name="verticalScrollMode">
+    <enum>QAbstractItemView::ScrollPerPixel</enum>
+   </property>
+   <property name="gridStyle">
+    <enum>Qt::SolidLine</enum>
+   </property>
+   <property name="rowCount">
+    <number>14</number>
+   </property>
+   <property name="columnCount">
+    <number>7</number>
+   </property>
+   <attribute name="horizontalHeaderMinimumSectionSize">
+    <number>50</number>
+   </attribute>
+   <attribute name="verticalHeaderMinimumSectionSize">
+    <number>120</number>
+   </attribute>
+   <attribute name="verticalHeaderDefaultSectionSize">
+    <number>80</number>
+   </attribute>
+   <attribute name="verticalHeaderHighlightSections">
+    <bool>true</bool>
+   </attribute>
+   <row>
+    <property name="text">
+     <string>1
+8:00-
+8:45</string>
+    </property>
+    <property name="textAlignment">
+     <set>AlignCenter</set>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>2
+8:50-
+9:35</string>
+    </property>
+    <property name="textAlignment">
+     <set>AlignCenter</set>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>3
+9:50-
+10:35</string>
+    </property>
+    <property name="textAlignment">
+     <set>AlignCenter</set>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>4
+10:40-
+11:25</string>
+    </property>
+    <property name="textAlignment">
+     <set>AlignCenter</set>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>5
+11:30-
+12:15</string>
+    </property>
+    <property name="textAlignment">
+     <set>AlignCenter</set>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>6
+13:00-
+13:45</string>
+    </property>
+    <property name="textAlignment">
+     <set>AlignCenter</set>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>7
+13:50-
+14:35</string>
+    </property>
+    <property name="textAlignment">
+     <set>AlignCenter</set>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>8
+14:45-
+15:30</string>
+    </property>
+    <property name="textAlignment">
+     <set>AlignCenter</set>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>9
+15:40-
+16:25</string>
+    </property>
+    <property name="textAlignment">
+     <set>AlignCenter</set>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>10
+16:35-
+17:20</string>
+    </property>
+    <property name="textAlignment">
+     <set>AlignCenter</set>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>11
+17:25-
+18:10</string>
+    </property>
+    <property name="textAlignment">
+     <set>AlignCenter</set>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>12
+18:30-
+19:15</string>
+    </property>
+    <property name="textAlignment">
+     <set>AlignCenter</set>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>13
+19:20-
+20:05</string>
+    </property>
+    <property name="textAlignment">
+     <set>AlignCenter</set>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>14
+20:10-
+20:55</string>
+    </property>
+   </row>
+   <column>
+    <property name="text">
+     <string>星期一</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>星期二</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>星期三</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>星期四</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>星期五</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>星期六</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>星期日</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>20</y>
+     <width>369</width>
+     <height>46</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QPushButton" name="searchCourseButton">
+      <property name="text">
+       <string>搜索</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>课程名称：</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="searchCourseEdit"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QTextEdit" name="wayInfo">
+   <property name="geometry">
+    <rect>
+     <x>790</x>
+     <y>310</y>
+     <width>271</width>
+     <height>431</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QWidget" name="widget_4" native="true">
+   <property name="geometry">
+    <rect>
+     <x>800</x>
+     <y>150</y>
+     <width>241</width>
+     <height>136</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QWidget" name="widget_2" native="true">
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="0" column="1">
+        <widget class="QLineEdit" name="startEdit"/>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLineEdit" name="courseOrTimeEdit"/>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="label_3">
+         <property name="text">
+          <string>课程/时间</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QLabel" name="label_2">
+         <property name="text">
+          <string>起点</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QWidget" name="widget_3" native="true">
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QPushButton" name="searchWayButton">
+         <property name="text">
+          <string>确定</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="cancelSearchButton">
+         <property name="text">
+          <string>取消</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
